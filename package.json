@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
   "devDependencies": {
     "vite": "^4.4.9"
   }

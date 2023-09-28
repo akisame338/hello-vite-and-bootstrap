@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  vite:
+    build:
+      context: .
+      dockerfile: docker/vite/Dockerfile
+    volumes:
+      - type: bind
+        source: .
+        target: /app
